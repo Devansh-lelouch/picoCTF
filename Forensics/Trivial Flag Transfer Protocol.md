@@ -1,4 +1,4 @@
-# Description
+![image](https://github.com/user-attachments/assets/5f721217-d3e9-4d50-b96c-da12adc45b49)# Description
 Figure out how they moved the flag.
 
 # Solution
@@ -63,4 +63,15 @@ The flag is
 
 
 ## Upadating with more images from wireshark and stighide
+
+![image](https://github.com/user-attachments/assets/2caae0c5-46f1-4015-a1a9-393c62234d4e)
+The intial window of wireshark ... 
+
+![image](https://github.com/user-attachments/assets/6a4dd661-3ed7-440f-b45b-9a86f4f80883)
+
+on the right side of the file we see that 
+![image](https://github.com/user-attachments/assets/deea54de-9ffc-43e6-84d3-dff3a6bd667b)
+
+files like instructions.txt, plan, program.deb exists ...
+
 
