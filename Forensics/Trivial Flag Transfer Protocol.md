@@ -13,6 +13,9 @@ Filtering out TFTPs we end up with only a few file namely
 We open each file 
 ## Instruction.txt 
 has gibberish text , prolly would have to decode it . 
+```
+GSGCQBRFAGRAPELCGBHEGENSSVPFBJRZHFGQVFTHVFRBHESYNTGENAFSRE.SVTHERBHGNJNLGBUVQRGURSYNTNAQVJVYYPURPXONPXSBEGURCYNA
+```
 Using online decorder tools applying caesershift doesnt do anything but ROT13 does 
 
 `TFTPDOESNTENCRYPTOURTRAFFICSOWEMUSTDISGUISEOURFLAGTRANSFER.FIGUREOUTAWAYTOHIDETHEFLAGANDIWILLCHECKBACKFORTHEPLAN`
@@ -74,4 +77,13 @@ on the right side of the file we see that
 
 files like instructions.txt, plan, program.deb exists ...
 
+We export the files we require :
+![image](https://github.com/user-attachments/assets/1c397ca1-996d-4904-9425-80e4df1f2a3d)
 
+and save it locally. 
+
+The images in the forms of bmp are 
+
+![image](https://github.com/user-attachments/assets/151d5cf5-5379-4c69-b389-61328659bcab)
+![image](https://github.com/user-attachments/assets/3e8640d5-d775-4a14-a74f-28aa0e20439e)
+![image](https://github.com/user-attachments/assets/e79701e2-b868-4b0c-83b8-45804d4ea8f8)
