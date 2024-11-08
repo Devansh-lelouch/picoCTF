@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5f721217-d3e9-4d50-b96c-da12adc45b49)# Description
+# Description
 Figure out how they moved the flag.
 
 # Solution
