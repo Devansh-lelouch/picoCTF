@@ -1,3 +1,5 @@
+# INCOMPLETE BECAUSE THERE WERE ERRORS IN THE INSTALLATION OF HAMLIB WILL DO LATER
+
 # Description
 Decode this message from the moon.
 The message is an audio file in the format .wav
@@ -35,4 +37,5 @@ SSTV transmits a picture by turning it into sounds that represent the color and 
 so we need to use sstv converter to get our flag 
 
 [Long ass tutorial makes you download aton](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04) Tells us how to convert SSTV audio to image
+
 
