@@ -26,4 +26,4 @@ after a long time there was no choice but to figure out some kinda code ?
 ![image](https://github.com/user-attachments/assets/4f450809-12fb-4905-8ce8-980749593117)
 
 The flag is -
->>picoCTF{3v3ry1_l0v3s_c00k135_bb3b3535}
+>picoCTF{3v3ry1_l0v3s_c00k135_bb3b3535}
