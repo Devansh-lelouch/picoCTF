@@ -24,5 +24,6 @@ Are the folders before  we can reach the root directory , `../` is used to go to
 
 # Flag
 
->>picoCTF{7h3_p47h_70_5ucc355_6db46514}
+>picoCTF{7h3_p47h_70_5ucc355_6db46514}
+
 ![image](https://github.com/user-attachments/assets/107dcdd7-e10f-4ef8-b1e9-ededb13789e2)
