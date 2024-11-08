@@ -61,3 +61,6 @@ picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
 The flag is 
 >picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
 
+
+## Upadating with more images from wireshark and stighide
+
