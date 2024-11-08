@@ -65,7 +65,7 @@ The flag is
 >picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
 
 
-## Upadating with more images from wireshark and stighide
+## Upadating with more images from wireshark 
 
 ![image](https://github.com/user-attachments/assets/2caae0c5-46f1-4015-a1a9-393c62234d4e)
 The intial window of wireshark ... 
