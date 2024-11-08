@@ -24,4 +24,40 @@ Roughly even tho its hard to read it says that TFTP doesnt encrpyt traffiuc it m
 VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF
 ```
 Again something gibberish we decode it using ROT13 to get 
-``
+
+```
+IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS
+```
+in the end it says due dilegence and checkout the photos so we check the photos 
+
+## Checking out the photos 
+HOW DO I DO BMP PHOTOS ANALYSIS 
+googling it  and youtube and reddit there is something called steghide something steganography program that is able to hide data in various kinds of image- and audio-files . ( from the official site ) 
+( will use this for that moonwalk laters hehe ) 
+
+need to use steghide now  dowload it via 
+``` 
+ apt install steghide
+```
+Its ask for password
+123 doesnt work 
+Hide with -DUEDILENGENCE 
+so it should be the password . 
+
+using that as password we open up the images 
+the image analysis the last image has the flag 
+image analysis using 
+```
+kafka@Kafka:~$ steghide extract -sf picture1.bmp -p DUEDILIGENCE
+steghide: could not extract any data with that passphrase!
+kafka@Kafka:~$ steghide extract -sf picture2.bmp -p DUEDILIGENCE
+steghide: could not extract any data with that passphrase!
+kafka@Kafka:~$ steghide extract -sf picture3.bmp -p DUEDILIGENCE
+wrote extracted data to "flag.txt".
+kafka@Kafka:~$ cat flag.txt
+picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
+```
+
+The flag is 
+>picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
+
