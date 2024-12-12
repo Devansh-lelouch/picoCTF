@@ -4,7 +4,7 @@ easy just inspect its there in comment format.
 # Scavenger Hunt [E]
 So the first part is in html only about the second part here is the extract from an article 
 
-> how Google can keep track of all these websites? It uses the Google web crawling/spider engine. 
+>how Google can keep track of all these websites? It uses the Google web crawling/spider engine. 
 But since devs don't want these spiders to reach and index every part of the website, we use a special file called 
 robots.txt! This file tells the crawlers what parts of the site are disallowed, and what User Agents are allower to visit
 Crawlers that listen to these files are called polite, when a crawler is not polite it could fall into something called a 
