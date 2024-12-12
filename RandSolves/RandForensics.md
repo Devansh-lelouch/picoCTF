@@ -26,7 +26,8 @@ When we use `file` to get the type of data we realize it has partitions so we us
 The fls command is used to list files and directories within a specific partition. In this case, the -o option specifies the offset (0000360448) of the Linux partition found earlier using mmls.
 
 then use icat because we want to exctract directrly from the node , cat just reads and displays.
-
+finallys the flag is 
+> picoCTF{by73_5urf3r_3497ae6b}
 
 
 
