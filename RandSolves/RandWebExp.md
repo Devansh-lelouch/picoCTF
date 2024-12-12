@@ -28,4 +28,8 @@ now for the part 5 we have to access something called
 # Local Authority [E]
 We see how the password works and in secure.js file there is username and password which gives the flag.
 
+# Unminify[E]
+We do ctrl+U to see the "view source " has the flag in it.
 
+# Logon [E]
+No matter what we enter we get the login successful but no flag meaning there is a cookie checking the cookies we see that admin is False make it True and refresh to get the flag.
