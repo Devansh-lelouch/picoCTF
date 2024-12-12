@@ -25,5 +25,7 @@ Create a custom error page
 now for the part 5 we have to access something called 
 >.DS_Store is a special MacOS file that stores information about the current folder
 
-#Local Authority
+# Local Authority [E]
+We see how the password works and in secure.js file there is username and password which gives the flag.
+
 
