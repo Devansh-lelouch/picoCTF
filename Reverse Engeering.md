@@ -81,5 +81,31 @@ mov	w0, 6
 
 ```
 
-`str w0, [sp,12]
+`str w0, [sp,12]` here means that store the value of sp+12 in the w0 register. str is for store sp,12 is 12 bytes away from the stack pointer. 
+
+`mov w0, 85` move the value 85 into w0. 
+similar code follows till 
+```
+ldr	w1, [sp, 16]
+lsl	w0, w1, w0
+``` 
+Load the value from memory at the address sp + 16 into register w1. ldr is for load 
+Logical shift left (LSL) moves the binary bits of the value in w1 to the left by the number of positions specified in w0. The empty positions on the right are filled with 0s.
+
+now making sense of the whole function command : ( Look the comments ) 
+
+![image](https://github.com/user-attachments/assets/5222cc7d-116e-4d6f-ab46-3afd60bef820)
+
+Looking in the main function 
+
+![image](https://github.com/user-attachments/assets/cabad4d6-e708-41a8-a0f0-d8fce92b8161)
+
+Solving it ,
+w0 = 0 
+1813 - x = 0 
+x = 1813 
+
+convert 1813 into hexadecimal and putting it in flag format to get flag as : 
+>picoCTF{00000715}
+
 
