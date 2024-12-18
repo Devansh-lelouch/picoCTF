@@ -14,8 +14,6 @@ Using Hex editor to open the file
 As the header showed BA D meaning that could be a hint , building on it and reasearching about bit map  a bit more ( pun ?)
 Standard bmp hex data would look like this : 
 
-![image](https://github.com/user-attachments/assets/0095a1f0-5b27-4629-b8e4-e8501b526978)
-
 in place of Ba d0 it should have been something else, reasarching bit more ( again pun ) 
 
 ![image](https://github.com/user-attachments/assets/3ceb5485-6f16-406c-a01c-995a7e7c7b07)
