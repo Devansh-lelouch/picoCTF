@@ -74,4 +74,8 @@ if __name__ == "__main__":
     test(message, "trudeau")
 
 ``` 
-running the 
+running the python script would get 
+
+![image](https://github.com/user-attachments/assets/6376d89c-23d6-4a49-9af1-c04668e88a93)
+
+we have to figure out a way to write a decrpytion script to 
