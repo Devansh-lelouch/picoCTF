@@ -29,5 +29,23 @@ then use icat because we want to exctract directrly from the node , cat just rea
 finallys the flag is 
 > picoCTF{by73_5urf3r_3497ae6b}
 
+# So Meta [M]
+We are given a png file and have to retrieve the flag , we use something called exiftool which gives the metadata of the image, as the name suggests the file is there. 
+
+>picoCTF{s0_m3ta_d8944929}
+
+# Shark on the wire 1
+![image](https://github.com/user-attachments/assets/fa7160e7-c431-443f-b4c2-24595451b1de)
+
+## Solution 
+This is a pcap  file so we have to use wiresharks , here we have tcp and udp protocals and we are given the hint of streams so 
+![image](https://github.com/user-attachments/assets/01c15db6-b6fa-4c61-acf2-aa4af6bba490)
+
+Now searching the streams by increasing the streams 
+
+![image](https://github.com/user-attachments/assets/063dd699-8218-411a-92a9-0b771a40dd32)
+![image](https://github.com/user-attachments/assets/1a8f03fa-a4a9-4454-b4db-c0d6b1c717c4)
+
+>picoCTF{StaT31355_636f6e6e}
 
 
