@@ -1,6 +1,10 @@
-# ARMssembly 0
-What integer does this program print with arguments 182476535 and 3742084308? File: chall.S 
-Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
+# Vault Door 1 [M]
+![image](https://github.com/user-attachments/assets/df8b8183-60a0-4f10-a018-086bd041b290)
 
-# Solution
-Since its in assembly code possibly ARM ( which is a low level prograaming and looking at ways to decode it ) 
+# Solution 
+We look at the charAt() what it does is return the character at that index. for eg str=hell , str.charAt(0) would return a h. 
+looking at the code now  
+![image](https://github.com/user-attachments/assets/7382e4ee-cbda-4141-8c68-55c06aeb62bc) 
+I just saw the code and manually did the index and letter matching to make the flag. 
+
+
