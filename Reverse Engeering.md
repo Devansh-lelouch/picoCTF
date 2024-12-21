@@ -109,3 +109,46 @@ convert 1813 into hexadecimal and putting it in flag format to get flag as :
 >picoCTF{00000715}
 
 
+# Vault-Door-3
+## Challenge 
+![image](https://github.com/user-attachments/assets/35b4e09a-2217-44f1-b6ea-497d143e5f2f)
+
+## Solution 
+Opening the Java file and analysing the code , explanation of the code i wrote in the comments 
+![image](https://github.com/user-attachments/assets/5f45dc46-e139-40f9-a4b3-3b04f2a28333)
+
+we just need to use the last line as our starting point and write a similar for loop to get the buffer and hence the flag , i did it using C 
+here is the code : 
+
+```
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char buffer[32] = {0};  
+    char password[] = "jU5t_a_sna_3lpm18gb41_u_4_mfr340"; //from the java file 
+
+    for (int i = 0; i < 8; i++) {
+        buffer[i] = password[i];
+    }
+    for (int i = 8; i < 16; i++) {
+        buffer[i] = password[23 - i];
+    }
+    for (int i = 16; i < 32; i += 2) {
+        buffer[i] = password[46 - i];
+    }
+
+    for (int i = 31; i >= 16; i -= 2) {
+        buffer[i] = password[i];
+    }
+    printf("picoCTF{%s}", buffer);
+    return 0;
+}
+```
+
+Running this C program would get the flag : 
+
+![image](https://github.com/user-attachments/assets/aecb3832-b1b7-49b0-bc01-ff599e014bdc) 
+
+the flag is : 
+>picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_1fb380}
+
