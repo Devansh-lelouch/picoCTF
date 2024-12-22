@@ -48,4 +48,16 @@ Now searching the streams by increasing the streams
 
 >picoCTF{StaT31355_636f6e6e}
 
+#Web Net 0 [H]
+![image](https://github.com/user-attachments/assets/c1f6198a-e896-4ad3-a38c-3c7e21da69e4)
 
+## Solution
+The challenge had pcap file and a key file , opening the pcap in wireshark showed me bunch of random things 
+I understood that we have to use the key, and found out that there is a preference tab on whireshark where rsa key can be uploaded . 
+When i uploaded it and reloaded the wireshark, the earlier encrypted TCP became https 
+Filtering all https and checking each one of them revealed the flag to me . 
+
+![image](https://github.com/user-attachments/assets/a24aa271-fde3-4656-bd21-02cb6f87127e)
+
+the flag is : 
+>picoCTF{nongshim.shrimp.crackers}
