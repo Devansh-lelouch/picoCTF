@@ -29,3 +29,58 @@ I found this
 
 The flag is :
 >picoCTF{honey.roasted.peanuts}
+
+# Very Very Very hidden 
+![image](https://github.com/user-attachments/assets/76bda7e6-0f16-422a-8d0d-bfef7575b3e6)
+
+# Solution
+A pcap file was given so opened up with wireshark . 
+I saw lot of tcp , quic , tslv 
+Filtered out the http to get 
+
+![image](https://github.com/user-attachments/assets/19757a75-7b3b-4a70-9dfe-596a1de4a776)
+
+There was a evilduck and a normal duck  
+Doing `file => Export object => HTTP` and saving all what we get from 
+![image](https://github.com/user-attachments/assets/151043fe-3507-45f5-bb8a-dd82a433703b)
+
+Opening the files 
+![image](https://github.com/user-attachments/assets/04de84e4-89db-4a73-acf1-643d565d19f8)
+
+The evil duck has more pixeleted image , clouds and oceans .
+
+Nothing sus contains 
+![image](https://github.com/user-attachments/assets/7f868fc8-eae9-4dfd-be7b-c86436d213f7)
+
+Favicon is a ISO file. 
+
+Trying exiftool,hex dump on the ducks but that didnt reveal anything. 
+I also tried steghide on the ducks and stegosuite but couldnt find anything on it. 
+![image](https://github.com/user-attachments/assets/5dedf360-586b-4a56-bdcc-6752ef0ec801)
+
+
+I went back to the hint and looking back at the wireshark saw 
+![image](https://github.com/user-attachments/assets/d91dcd0a-027f-4a0f-a173-af47cdd1d375)
+
+I didnt know why powershell was here , after lot of here there i searched powershell decoder and wasting time there, got to 
+powershell steganography  [here ](https://malware.news/t/powershell-steganography/41866) 
+
+After reading the article and seeing the second hint i was sure this is what happened to evil ducks as well.
+Now i had to get a tool to do that , i tried a 2 github repostitory and got one working [here](https://github.com/PCsXcetra/Decode_PS_Stego)
+
+Viewing the evil duck would get us : 
+![image](https://github.com/user-attachments/assets/194ee38e-b595-4637-9741-07d326c863a9)
+
+I treid to check if that was a encoded data but it wasn't 
+![image](https://github.com/user-attachments/assets/e0430343-1411-48d7-8522-22e56f3e001b)
+
+I asked chatgpt what it is and it was a powershell script . 
+![image](https://github.com/user-attachments/assets/13f944c5-1113-455d-a5b2-b57fd657d7a6)
+
+Ran it in the powershell and got 
+![image](https://github.com/user-attachments/assets/44610c8e-dbbf-476e-aabd-f71a0d9fc3a7)
+
+Flag is 
+>picoCTF{n1c3_job_f1nd1ng_th3_s3cr3t_in_the_im@g3} 
+
+This challenge took me a long while to solve.
