@@ -3,8 +3,7 @@
 
 
 # Solution
-Since i dont know much about XML/ XXE watching this video to get an idea about it 
-https://www.youtube.com/watch?v=gjm6VHZa_8s&t=45s
+Since i dont know much about XML/ XXE watching a video on it.
 
 Opening the Web portal and inpecting : 
 
@@ -20,11 +19,40 @@ Also got to know that
 
 So the challenge name makes sense .
 
-researching more on how to do XML injection, and using Burp suite to do so. 
+researching more on how to do XML injection, and using Burp suite to do so. Since I didnt know about burp suite i had to watch a couple of videos to get it right, links of which are in the refrences in the last. 
+
+Opening the link in Burp's browser with intercept off and then clicking on any details of the webpage and turing intercept on
 
 ![image](https://github.com/user-attachments/assets/d56743e4-8af7-4534-a8fb-be69f00ba95f)
 
+Selecting the code to send it to the repeater and turning the intercet off
+
+![image](https://github.com/user-attachments/assets/8d57d24e-c029-4fb4-b9eb-b56cc0ac5a00)
+
+
+The repeater window looks like this .
+
 ![image](https://github.com/user-attachments/assets/44f553a0-86c6-4c54-a341-245f736b8da4)
+
+We have to give this code in the request,This is a pretty standard code in such attacks 
+
+```
+<!DOCTYPE test[
+<!ENTITY name SYSTEM "file:///etc/passwd>
+]>
+```
+
+Sending the request would fetch us a response : 
 
 ![image](https://github.com/user-attachments/assets/7a67cffb-c6e2-4744-a3d4-04a8175477cf)
 
+The flag is 
+>picoCTF{XML_3xtern@l_3nt1t1ty_540f4f1e}
+
+>Refrence Videos :
+
+>https://youtu.be/QiNLNDSLuJY?si=qPyksBMKJmqtf_hq
+
+>https://www.youtube.com/watch?v=xwcPgeEFnuM
+
+>https://youtu.be/gjm6VHZa_8s?si=VoAlixK9E8jU0O21
