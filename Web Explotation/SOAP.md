@@ -22,3 +22,9 @@ So the challenge name makes sense .
 
 researching more on how to do XML injection, and using Burp suite to do so. 
 
+![image](https://github.com/user-attachments/assets/d56743e4-8af7-4534-a8fb-be69f00ba95f)
+
+![image](https://github.com/user-attachments/assets/44f553a0-86c6-4c54-a341-245f736b8da4)
+
+![image](https://github.com/user-attachments/assets/7a67cffb-c6e2-4744-a3d4-04a8175477cf)
+
