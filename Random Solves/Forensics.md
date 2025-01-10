@@ -82,3 +82,14 @@ after doing mmls partition we notice this , now it must be in one of the linux ,
 
 fls is there listing 
 `-o` if offset 
+But here the flag is wrong . 
+
+# hide me [M]
+A png file was given 
+## Sol 
+
+tried hex dump got something secret , nothing in metadata used binwalk  to get this 
+
+![image](https://github.com/user-attachments/assets/2cf6026b-14ff-4e07-b22c-f18f7ec3b7cb)
+
+![flag](https://github.com/user-attachments/assets/8e8f0314-f8c2-4a9c-b7d2-e7791bc9ccf0)
