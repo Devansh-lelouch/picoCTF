@@ -63,3 +63,15 @@ Filtering all https and checking each one of them revealed the flag to me .
 
 the flag is : 
 >picoCTF{nongshim.shrimp.crackers}
+
+# Sleuthkit intro [M]
+![image](https://github.com/user-attachments/assets/68b43e18-5304-47b3-9aa6-8d8d6e27b335)
+
+## Solution 
+![image](https://github.com/user-attachments/assets/0f24c8f1-f621-4aa5-a432-221fa7f323f0)
+
+
+# Orchid [M]
+
+## Solution
+
