@@ -72,6 +72,13 @@ the flag is :
 
 
 # Orchid [M]
+Similar to the above 
 
 ## Solution
+![image](https://github.com/user-attachments/assets/3bce717e-9917-4f9b-ba1b-a1dcfa3140d6)
 
+after doing mmls partition we notice this , now it must be in one of the linux , since the largest  lenght is last one we will start with that 
+![image](https://github.com/user-attachments/assets/3ba1c537-eecf-4734-9805-91352b23afc1)
+
+fls is there listing 
+`-o` if offset 
