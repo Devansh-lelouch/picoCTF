@@ -10,4 +10,5 @@ I solved all the promblems given in the pdf in the folders of there respective d
 [My Pico profile](https://play.picoctf.org/users/KafkaDev)
 
 Dashboard as of 22-Dec'24
-![image](https://github.com/user-attachments/assets/33b9ea78-73d7-49c1-97cc-7dbd4f5605d5)
+![Uploading image.png…]()
+
