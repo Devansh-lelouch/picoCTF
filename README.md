@@ -13,3 +13,7 @@ Dashboard as of 22-Dec'24
 ![image](https://github.com/user-attachments/assets/9091e027-e042-472e-843c-b2fd9135472f)
 
 
+Update - 
+Contains all the Pico I solve ( aim to finish all of it ) 
+
+
